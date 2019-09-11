@@ -60,8 +60,116 @@
             <li>먹는다</li>
             <li>설거지를 한다</li>
         </ol>
+
+        <!-- definition list 정의형 목록 -->
+
+        <dl>
+            <dt>
+                unodered list 비 순차적 목록
+            </dt>
+            <dd>
+                비 순차적 목록은 순서가 없고 위치가 바뀌어도 의미가 바뀌지 않는 목록을 의미합니다.
+            </dd>
+
+            <dt>
+                definition list 정의형 목록
+            </dt>
+            <dd>
+                정의형 목로은 어떤 용어나 단어등을 정의(의미를 명확히)할 때 사용합니다.
+            </dd>
+        </dl>
+
+        <!-- strong, em<> b, i-->
+        <strong>강한 강조</strong>
+        <em>강조</em>
+
     
-           
+
+        <!--의미-->
+        <b>볼드체</b>
+        <i>이텔릭체</i>
+    
+        <!--형태-->
+
+        <ins>첨부내용</ins>
+        <del>첨삭내용</del>
+
+            <!--내용 표시-->
+
+            <u>밑줄</u>
+            <strike>가운데줄</strike>
+
+            <!--sup 윗첨자, sub 아랫첨자-->
+            2<sup>2</sup> : 2의 2제곱
+            H<sub>2</sub>0 : 물의 화학식<br/><br/>
+
+
+            <img src="./image/stardew.jpg" width="100px"/>
+            <img src="image/stardew.jpg" height="100px"/><br/><br/>
+
+           <style>
+        table, tr, td {border:solid 1px black; }
+    </style>
+            <!--summary 요약, caption 표제-->
+
+            <table summary="표 설명">
+                <caption>[표1] 표 제목 </caption>
+                <!-- thead, tbody, tfoot-->
+                <!-- scope 초점>망원경 -->
+
+                <tbody>
+                    <tr>
+                        <th scope="col">제목1</th>
+                        <th scope="col">제목2</th>
+                        <th scope="col">제목3</th>
+                        <th scope="col">제목4</th>
+                        <th scope="col">제목5</th>
+                    </tr>
+                    <!-- tr table row 한줄, td 한칸 -->
+                    <!--colspan 가로(열)늘리기 rowspan 세로(행)늘리기-->
+                    <tr>
+                        <td colspan="2">1</td>
+                        <td rowspan="2">2</td>
+                        <td>3</td>
+                        <td>4</td>
+                </tr>
+            </tbody>
+            </table>
+            
+            <!--div, span 분할-->
+            <!--의미없이 쓰기 좋은 태그들-->
+                        <div>내용</div>
+                        <!--블록형 태그-->
+                        <span>내용</span>
+                        <!--인라인형 태그-->
+
+
+                    </br></br></br>
+                    <style>
+                            table{
+                                border: 1px solid black;
+                            }
+                            td{
+                                border: 1px solid black;
+                            }
+                        </style>
+                        <table>
+                            <tr>
+                                <td colspan="3">up</td>
+                                <td colspan="1" rowspan="2">right</td>
+                                
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="2">left</td>
+                                <td colspan="2" rowspan="1">center</td>
+                                
+                            </tr>
+                            <tr>
+                                   
+                                <td colspan="3" rowspan="1">down</td>
+                                
+                            </tr>
+                        </table>
            
 
 
